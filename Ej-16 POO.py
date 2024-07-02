@@ -22,7 +22,7 @@ class NumeroComplejo:
         self.y = _y
 
     def look_Object(self):
-        print("\n:) Hi, my coordinate is (x = ", self.x , "& y = ", self.y,")")
+        print("     :) Hi, I am the one complex number, my coordinate is (x = ", self.x , "& y = ", self.y,")")
 
 
 def check_complex_numbers(numero_complejo1, numero_complejo2):
@@ -44,7 +44,9 @@ def main():
     my_number2= NumeroComplejo(50, 100)
 
     # Looking Data
+    print("\nTHE OBJECTS:")
     my_number.look_Object()
+    my_number2.look_Object()
 
     print("\n-->PROCESSING, PLEASE WAIT....")
     # Check two complex numbers
